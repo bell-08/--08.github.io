@@ -1,0 +1,107 @@
+.メイン{
+ margin-bottom:60px;
+}
+
+
+
+.セル {
+ /* ↓ セルの背景色をオレンジにする */
+ background-color: #ffffff;
+ font-size:5px;
+}
+
+.FOREST {
+	font-size: 15px;
+}
+
+
+.グリッド {
+ /* ↓ グリッドモードにする */
+ display: grid;
+	
+ /* ↓ 3列 セルの幅300px, 1fr, 100px */
+ grid-template-columns: 500px 1fr 5px;
+	
+ /* ↓ 1行 セルの高さ300px */
+ grid-template-rows: 300px;
+	
+ /* ↓ セルの間隔は20px */
+ grid-gap: 20px;
+
+ margin-bottom:50px;
+}
+
+
+
+.セル2 {
+ background-color:#ffffff;
+	font-size:5px;
+}
+
+
+.動物の名前 {
+	font-size: 15px;
+}
+
+
+
+
+.グリッド2{
+	display: grid;
+	
+	grid-template-columns:repeat(3,150px);
+  grid-auto-rows: 150px;
+	grid-gap: 50px;
+  margin-bottom:250px;
+justify-content:center;}
+
+
+
+
+
+
+
+.フッター {
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ↓メモ
+
+.見出し {
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+	
+}
+
+
+ /* ↓ セルの背景色をオレンジにする */
+ background-color: orange;
+}
+.グリッド {
+ /* ↓ グリッドモードにする */
+ display: grid;
+	
+ /* ↓ 3列 セルの幅200px */
+ grid-template-columns: repeat(3, 200px);
+	
+ /* ↓ 行数は自動 セルの高さ150px */
+ grid-auto-rows: 150px;
+	
+ /* ↓ セルの間隔は40px */
+ grid-gap: 40px;
+}
+
+
+
+*/
